@@ -1,5 +1,5 @@
-# Используем openjdk:8-jdk-alpine как базовый образ
-FROM openjdk:8-jdk-alpine
+# Используем FROM openjdk:17-jdk-slim как базовый образ
+FROM openjdk:17-jdk-slim
 
 # Установка рабочей директории в /app
 WORKDIR /app
